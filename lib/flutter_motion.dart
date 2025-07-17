@@ -1,8 +1,2 @@
-
-import 'flutter_motion_platform_interface.dart';
-
-class FlutterMotion {
-  Future<String?> getPlatformVersion() {
-    return FlutterMotionPlatform.instance.getPlatformVersion();
-  }
-}
+export 'src/cards/card.widget.dart';
+export 'src/cards/card_list.motion.dart';
