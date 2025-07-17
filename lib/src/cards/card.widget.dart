@@ -17,8 +17,6 @@ class CardWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final startPoint = MediaQuery.of(context).size.height * 0.4;
-
     return Positioned(
       top: position.dy,
       // 너비는 맨 바깥쪽 카드를 화면의 1/2로, 맨 바깥을 화면의 너비만큼으로 해서

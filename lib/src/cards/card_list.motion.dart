@@ -33,8 +33,10 @@ class _CardListWidgetState extends State<CardListWidget> {
         }
 
         if (details.delta.dy > 3) {
+          currentIndex.value++;
           panUpdated = true;
         } else if (details.delta.dy < -3) {
+          currentIndex.value--;
           panUpdated = true;
         }
       },
